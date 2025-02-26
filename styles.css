@@ -1,0 +1,82 @@
+/* Styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+.board {
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid #aaa;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+
+    /* Default color for unrevealed tiles */
+    background-color: #eee;
+
+    /* Default color for unrevealed tile text */
+    color: #333;
+}
+.revealed {
+    /* Color for revealed tiles */
+    background-color: #ccc;
+    font-weight: bolder;
+}
+
+.one {
+    color:blue;
+}
+.two{
+    color:green;
+}
+.three{
+    color:red;
+}
+.four{
+    color:navy;
+}
+.five{
+    color:brown;
+}
+.six{
+    color:teal;
+}
+.seven{
+    color:purple;
+}
+.eight{
+    color:gray;
+}
+/* ((boardWidth/2)-2)*30-10 px */
+.smiley { 
+    font-size: xx-large;
+    background-color: #eee;
+    border: 2px solid #aaa;
+}
+.smiley:hover{
+    cursor:pointer;
+}
+.preset {
+    width: 60px;
+}
+.top_red {
+    color:red;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: black;
+    border: 2px solid #aaa;
+    padding: 5px;
+}
+.top_bar {
+    display: flex; 
+    justify-content: center; 
+    width:100%;
+}
